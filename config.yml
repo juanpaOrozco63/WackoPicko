@@ -10,3 +10,4 @@ sast:
 sca:
   include:
     - .
+strict: true
