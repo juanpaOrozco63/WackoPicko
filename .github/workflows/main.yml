@@ -12,3 +12,9 @@ jobs:
         uses: docker://docker.io/fluidattacks/cli:latest
         with:
           args: skims --strict scan .
+          
+      - name: Run FluidAttacks CLI with CSV output
+        uses: docker://docker.io/fluidattacks/cli:latest
+        with:
+          args: skims --strict scan . --csv
+
